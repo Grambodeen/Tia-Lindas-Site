@@ -15,12 +15,14 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
    </nav>
-   <form action="https://formspree.io/graham@tialindas.com" method="POST">
+   <form id="contactform" action="https://formspree.io/graham@tialindas.com" method="POST">
    	<div>Contact Us!</div>
     <div><input type="text" id="form-input" placeholder="Enter Name" name="name"></div>
     <div><input type="email" id="form-input" placeholder="Enter Email" name="_replyto"></div>
+    <textarea id="form-input" name="comment" form="contactform">Enter text here...</textarea>
     <div><input type="submit" id="form-submit" value="Submit"></div>
 </form>
+
 <div>
    <img id="lady-img" src="images/tl-logo.jpg" />
    </div>
