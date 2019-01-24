@@ -60,6 +60,7 @@
         $cf = $_SESSION['cf_returndata'];
         $sr = true;
     }
+	?>
     <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
         <li id="info">There were some problems with your form submission:</li>
         <?php 
