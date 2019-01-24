@@ -48,6 +48,37 @@
 	-o-background-size: contain;
 	background-size: contain;
 }
+#form-input {
+	border: 1px solid #4195fc;
+    margin: 20px;
+    padding: 5px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+}
+#form-submit {
+	border: 1px solid #333;
+    margin: 20px;
+    padding: 5px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+form {
+	display: inline-block;
+	padding: 20px;
+	background-color: #FFF;
+	width: 300px;
+	height: 200px;
+    border: 2px solid #333;
+    color: #333;
+    overflow: hidden;
+}
 body {
 				text-align:center;
 				height:100%;
