@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 
-<!doctype html>
+<!DOCTYPE HTML>
 <html class="no-js" lang="">
 
 <head>
