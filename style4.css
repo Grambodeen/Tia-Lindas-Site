@@ -6,10 +6,11 @@
 	background-position: center 45px;
 	background-repeat: no-repeat;
 	background-color: B7B7B7;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain;
+	background: "images/BG-Image.png"
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #launch-image{
 	height:50%;
