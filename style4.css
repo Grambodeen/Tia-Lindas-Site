@@ -1,12 +1,6 @@
 #bg-image{
-	height:100%;
-	width:100%;
-	margin:0 auto;
-	padding:0px;
-	background-position: center 45px;
-	background-repeat: no-repeat;
-	background-color: B7B7B7;
-	background: "images/BG-Image.png"
+	width: 100%;
+	background: url(images/BG-Image.png) no-repeat center center no-repeat; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -93,7 +87,6 @@ nav {
     color: #fff;
     display: block;
     margin: 0;
-    overflow: hidden;
 }
 nav ul{
     margin: 0;
