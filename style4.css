@@ -1,6 +1,6 @@
 #bg-image{
 	width: 100%;
-	background: url(images/BG-Image.png) no-repeat center center no-repeat; 
+	background: url(images/BG-Image.png) no-repeat fixed center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
