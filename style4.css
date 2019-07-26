@@ -6,10 +6,6 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
-#fb-page{
-	display:inline-block;
-	position:relative;
-}
 #launch-image{
 	height:50%;
 	width:50%;
@@ -67,7 +63,12 @@
        -moz-border-radius: 4px;
             border-radius: 4px;
 }
-
+.fb-page{
+	position:relative;
+	float:left;
+	display:inline-block;
+	overflow:visible;
+}
 form {
 	display: inline-block;
 	padding: 20px;
