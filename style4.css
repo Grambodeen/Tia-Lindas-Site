@@ -7,9 +7,9 @@
 	background-size: cover;
 }
 #fb-page{
-	data-href="https://www.facebook.com/TiaLindasMargarita" 
-	data-tabs="timeline" 
-	data-width="300" 
+	href="https://www.facebook.com/TiaLindasMargarita" 
+	tabs="timeline" 
+	width="300" 
 }
 #launch-image{
 	height:50%;
