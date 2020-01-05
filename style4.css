@@ -1,11 +1,11 @@
 @font-face {
 	font-family: coloniab;
-	src: url(fonts/coloniab.ttf)
+	src: url('fonts/coloniab.ttf');
 }
 
 @font-face {
 	font-family: gesis;
-	src: url(fonts/gesis.ttf)
+	src: url('fonts/gesis.ttf');
 }
 
 .bg-container {
@@ -106,9 +106,11 @@
 }
 
 #product-image {
-	height:13%;
-	width:13%;
-	margin: 7em;
+	width: 50%;
+	background: no-repeat center center no-repeat;
+	position: relative;
+	z-index: -1;
+	margin-top: 7em;
 	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
