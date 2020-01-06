@@ -28,8 +28,9 @@
 .landing-img-lrg {
 	position: absolute;
 	top: 0px;
-	left: 10px;
-	width: 75%;
+	left: 50px;
+	width: 50%;
+	z-index: -1;
 }
 
 .list-sep-img {
@@ -40,7 +41,7 @@
 
 .landing-text {
 	position: absolute;
-	top: 330px;
+	top: 300px;
 	left: -280px;
 	color: #f3f5ca;
 	font-size: 25px;
