@@ -175,7 +175,7 @@ nav {
     position: fixed;
     top: 0;
     margin: 0;
-    height: 7em;
+    height: 6em;
     width: 100%;
     font-family: candara;
     font-size: 18px;
@@ -200,7 +200,7 @@ nav > ul > li > a {
     color: #333;
     display: inline-block;
     line-height: 2em;
-    padding: 2.5em 2em;
+    padding: 2em 2em;
     text-decoration: none;    
 }
 
