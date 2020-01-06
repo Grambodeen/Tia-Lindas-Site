@@ -25,6 +25,53 @@
 	background-size: cover;
 }
 
+.event-image {
+	width: 100%;
+	background-repeat: repeat;
+	position: relative;
+	z-index: -1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.middle-strip {
+	height: 1000px;
+	width: 700px;
+	background-color: #f3f5ca;
+	position: absolute;
+	top: 0;
+	left: 300px;
+	box-shadow: 0 0 10px 0 #333;
+	z-index: -1;
+}
+
+.event-shaker {
+	position: absolute;
+	top: 50px;
+	left: 270px;
+	width: 20%;
+	z-index: -1;
+}
+
+.product-sidebar-left {
+	position: absolute;
+	font-family: coloniab;
+	top: 8em;
+	left: 10px;
+	width: 300px;
+	z-index: -1;
+}
+
+.product-list-img {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	width: 20%;
+	z-index: -1;
+}
+
 .landing-img-lrg {
 	position: absolute;
 	top: 0px;
@@ -135,9 +182,9 @@
 	width: 50%;
 	background: no-repeat center center no-repeat;
 	position: relative;
+	box-shadow: 0 0 10px 0 #333;
 	z-index: -1;
 	margin-top: 7em;
-	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	-o-background-size: contain;
