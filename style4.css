@@ -1,11 +1,11 @@
 @font-face {
 	font-family: coloniab;
-	src: url('fonts/coloniab.ttf');
+	src: url(fonts/coloniab.ttf);
 }
 
 @font-face {
 	font-family: gesis;
-	src: url('fonts/gesis.ttf');
+	src: url(fonts/gesis.ttf);
 }
 
 .bg-container {
@@ -25,31 +25,27 @@
 	background-size: cover;
 }
 
-.landing-text-lrg {
+.landing-img-lrg {
 	position: absolute;
-	font-family: coloniab;
-	top: 150px;
-	left: 100px;
-	color: #f3f5ca;
-	font-size: 40px;
+	top: 0px;
+	left: 10px;
+	width: 75%;
 }
 
-.landing-text-sml {
-	position: absolute;
-	font-family: blippo, fantasy;
-	top: 220px;
-	left: 250px;
-	color: #f3f5ca;
-	font-size: 25px;
+.list-sep-img {
+	position: relative;
+	width: 5%;
+	top: 25px;
 }
 
 .landing-text {
 	position: absolute;
-	top: 300px;
-	left: 190px;
+	top: 330px;
+	left: -280px;
 	color: #f3f5ca;
 	font-size: 25px;
 	font-family: blippo, fantasy;
+	text-decoration: none;
 }
 
 .event-text {
@@ -59,8 +55,19 @@
 	margin-top: 7em;
 }
 
+.btn {
+	font-size: 25px;
+	border: 5px solid #f3f5ca;
+	box-shadow: 0 12px 16px 0 #333;
+	background-color: transparent;
+	border-radius: 5px;
+	font-family: blippo, fantasy;
+	display: inline-block;
+	padding: 5px;
+}
+
 #nav-logo {
-	width: 10%;
+	width: 15%;
 	height: 100%;
 	display: inline-block;
 	float: left;
@@ -172,7 +179,7 @@ nav {
 }
 
 nav ul {
-    margin: 0 5em;
+    margin: 0 7em;
     padding: 0;
     display: relative;
     height: 2em;
@@ -196,5 +203,10 @@ nav > ul > li > a {
 
 nav li:hover {
     background-color: #666;
-    
+}
+
+.btn a {
+	text-decoration: none;
+	color: #f3f5ca;
+	text-align: center;
 }
