@@ -36,20 +36,15 @@
 	background-size: cover;
 }
 
-.middle-strip {
-	height: 1000px;
-	width: 700px;
-	background-color: #f3f5ca;
-	position: absolute;
-	top: 0;
-	left: 300px;
-	box-shadow: 0 0 10px 0 #333;
-	z-index: -1;
-}
-
 .event-mid-img {
 	width: 25%;
 	margin-top: 10vw;
+}
+
+.event-side-img {
+	width: 100%;
+	margin-top: 8vw;
+	background-repeat: repeat-y;
 }
 
 .w3-col.m6.w3-center.event-mid {
@@ -57,6 +52,7 @@
 	box-shadow: 0 0 10px 0 #333;
 	width: 50%;
 	margin-top 8vw;
+	height: inherit;
 }
 
 .product-mid-image {
@@ -127,8 +123,8 @@
     box-shadow: 0 -7px 5px 0 #333;
     display: block;
     position: relative;
-    bottom: 0;
-    height: 6em;
+    bottom: 1vw;
+    height: 15vw;
     width: 100%;
     font-family: candara;
     font-size: 18px;
