@@ -118,7 +118,7 @@
     box-shadow: 0 -7px 5px 0 #333;
     width: 100%;
     margin-bottom: 0;
-    position: fixed;
+    position: relative;
 }
 
 #nav-align {
