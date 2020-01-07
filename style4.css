@@ -8,14 +8,9 @@
 	src: url(fonts/gesis.ttf);
 }
 
-.bg-container {
-	position:relative;
-	margin-top: 7em;
-	text-align: center;
-}
-
 .bg-image {
 	width: 100%;
+	margin-top: 10vw;
 	background: no-repeat center center no-repeat;
 	position: relative;
 	z-index: -1;
@@ -118,21 +113,21 @@
 	text-align: center;
 }
 
-.btm-nav {
+.w3-bar.btm-nav {
 	background-image: linear-gradient(to top, #3d5251, #43c2b1);
     box-shadow: 0 -7px 5px 0 #333;
-    display: block;
-    position: relative;
-    bottom: 1vw;
-    height: 15vw;
     width: 100%;
-    font-family: candara;
-    font-size: 18px;
+    margin-bottom: 0;
+    position: fixed;
+}
+
+#nav-align {
+	margin-top: 3.5vw;
+	margin-right: 5vw;
 }
 
 #nav-logo {
-	width: 150%;
-	margin: .5em;
+	width: 20%;
 }
 
 #nav-text {
@@ -235,15 +230,10 @@ nav {
     background-image: linear-gradient(#3d5251, #43c2b1);
     box-shadow: 0 7px 5px #333;
     position: fixed;
-    top: 0;
-    margin: 0;
-    width: 100%;
-    font-family: candara;
-    font-size: 1.4vw;
 }
 
 #nav-text a {
-	font-size: 1.1em;
+	font-size: 1.4vw;
 	font-family: candara;
 	text-decoration: none;
 }
@@ -260,10 +250,6 @@ nav {
 	font-family: candara;
 	margin-right: -2em;
 	text-decoration: none;
-}
-
-#nav-text a:hover {
-	background-color: #666;
 }
 
 #nav-text-mvleft a:hover {
