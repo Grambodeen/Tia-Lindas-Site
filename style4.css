@@ -55,21 +55,20 @@
 	z-index: -1;
 }
 
-.product-sidebar-left {
-	position: absolute;
-	font-family: coloniab;
-	top: 8em;
-	left: 10px;
-	width: 300px;
-	z-index: -1;
+.product-mid-image {
+	width: 100%;
+	box-shadow: 0 0 10px 0 #333;
+	margin-top: 7em;
 }
 
-.product-list-img {
-	position: absolute;
-	top: 50px;
-	left: 20px;
-	width: 20%;
-	z-index: -1;
+.product-left-img {
+	width: 100%;
+	margin-top: 10em;
+}
+
+.product-right-img {
+	width: 100%;
+	margin-top: 10em;
 }
 
 .landing-img-lrg {
@@ -178,18 +177,7 @@
 	background-size: contain;
 }
 
-#product-image {
-	width: 50%;
-	background: no-repeat center center no-repeat;
-	position: relative;
-	box-shadow: 0 0 10px 0 #333;
-	z-index: -1;
-	margin-top: 7em;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain;
-}
+
 
 #form-input {
 	border: 1px solid #4195fc;
@@ -272,5 +260,7 @@ nav > ul > li > a {
 nav li:hover {
     background-color: #666;
 }
+
+/* Below is from W3 Schools Styles */
 
 
