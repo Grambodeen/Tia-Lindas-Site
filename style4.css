@@ -132,10 +132,23 @@
 }
 
 #nav-logo {
-	width: 15%;
-	height: 100%;
-	display: inline-block;
-	float: left;
+	width: 150%;
+	margin: .5em;
+}
+
+#nav-text {
+	margin-top: 2.5em;
+	text-decoration: none;
+}
+
+#nav-text-mvleft {
+	margin-top: 2.5em;
+	text-decoration: none;
+}
+
+#nav-text-mvright {
+	margin-top: 2.5em;
+	text-decoration: none;
 }
 
 /* FOR FB STYLE .fb_iframe_widget{
@@ -234,6 +247,40 @@ nav {
     font-size: 18px;
 }
 
+#nav-text a {
+	font-size: 1.1em;
+	font-family: candara;
+	text-decoration: none;
+}
+
+#nav-text-mvleft a {
+	font-size: 1.1em;
+	font-family: candara;
+	margin-left: -2em;
+	text-decoration: none;
+}
+
+#nav-text-mvright a {
+	font-size: 1.1em;
+	font-family: candara;
+	margin-right: -2em;
+	text-decoration: none;
+}
+
+#nav-text a:hover {
+	background-color: #666;
+}
+
+#nav-text-mvleft a:hover {
+	background-color: #666;
+}
+
+#nav-text-mvright a:hover {
+	background-color: #666;
+}
+
+/*  OLD NAV CODING
+ 
 nav ul {
     margin: 0 7em;
     padding: 0;
@@ -259,7 +306,7 @@ nav > ul > li > a {
 
 nav li:hover {
     background-color: #666;
-}
+} */
 
 /* Below is from W3 Schools Styles */
 

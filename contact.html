@@ -4,20 +4,29 @@
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tia Linda's Margaritas</title>
     <link href="style4.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 	<body>
-<nav>
-	<a href="index.html">
-		<img id="nav-logo" src="logos/tia-linda-nav.png" />
-	</a>
-    <ul>
-        <<li><a href="about.html">Her Story</a></li>
-        <li><a href="locations.html">Where Is She?</a></li>
-        <li><a href="product.html">Product</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="events.html">Events</a></li>
-    </ul>
-   </nav>
+<nav class="w3-row">
+	<div class="w3-col m1 w3-center">
+		<a href="index.html"><img id="nav-logo" src="logos/tia-linda-nav.png"/></a>
+	</div>
+	<div class="w3-col m2 w3-center" id="nav-text">
+		<a href="about.html">Her Story</a>
+	</div>
+	<div class="w3-col m2 w3-center" id="nav-text">
+		<a href="locations.html">Where Is She?</a>
+	</div>
+	<div class="w3-col m2 w3-center" id="nav-text">
+		<a href="product.html">Product</a>
+	</div>
+	<div class="w3-col m2 w3-center" id="nav-text">
+		<a href="contact.html">Contact</a>
+	</div>
+	<div class="w3-col m2 w3-center" id="nav-text">
+		<a href="events.html">Events</a>
+	</div>
+</nav>
    <form id="contactform" action="https://formspree.io/graham@tialindas.com" method="POST">
    	<div>Contact Us!</div>
     <div><input type="text" id="form-input" placeholder="Enter Name" name="name"></div>
