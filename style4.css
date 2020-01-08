@@ -158,16 +158,10 @@
 	text-decoration: none;
 }
 
-/* FOR FB STYLE .fb_iframe_widget{
-	display:inline-block;
-	position:relative;
-	margin-top:-100000000px;
-} */
-
 #about-image {
-	height:50%;
-	width:50%;
-	margin-top: 7em;
+	width:60%;
+	margin-top: 10vw;
+	position: center;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	-o-background-size: contain;
