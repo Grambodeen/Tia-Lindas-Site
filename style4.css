@@ -19,6 +19,22 @@
 	margin-top: 10vw;
 }
 
+.about-img {
+	width: 100%;
+}
+
+.w3-card.margin {
+	margin-top: 15vw;
+}
+
+.w3-small.btm {
+	margin-top: -1vw;
+}
+
+.w3-tiny.up {
+	margin-top: -1vw;
+}
+
 .btn {
 	position: absolute;
 	margin-top: 10vw;
