@@ -101,6 +101,19 @@
 	margin-top: 15vw;
 }
 
+.location-map {
+	width: 100%;
+	box-shadow: 0 0 10px 0 #333;
+	margin-top: 15vw;
+	margin-bottom: 5vw;
+}
+
+.w3-col.m3.w3-center.partners {
+	margin-top: 15vw;
+	font-family: coloniab;
+	font-size: 2vw;
+}
+
 .landing-img-lrg {
 	float: left;
 	margin-top: 0;
