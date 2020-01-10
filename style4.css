@@ -1,11 +1,13 @@
 @font-face {
 	font-family: coloniab;
-	src: url("../Tia-Lindas-Site/fonts/coloniab.ttf");
-}
-
-@font-face {
-	font-family: gesis;
-	src: url(fonts/gesis.ttf);
+	src: url("./Tia-Lindas-Site/fonts/coloniab.ttf") format("truetype");
+	src: url("./fonts/coloniab.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/coloniab.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/coloniab.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/coloniab.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/coloniab.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
 }
 
 .index-container {
@@ -21,6 +23,11 @@
 
 .about-img {
 	width: 100%;
+}
+
+.event-text {
+	font-family: coloniab;
+	font-size: 2vw;
 }
 
 .w3-card.margin {
