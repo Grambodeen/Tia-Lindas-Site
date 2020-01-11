@@ -26,7 +26,8 @@
 }
 
 .w3-card.margin {
-	margin-top: 15vw;
+	margin-top: 11vw;
+	box-shadow: none;
 }
 
 .w3-small.btm {
@@ -69,7 +70,8 @@
 
 .event-mid-img {
 	width: 25%;
-	margin-top: 15vw;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
 }
 
 .event-side-img {
@@ -83,14 +85,6 @@
 	font-family: coloniab;
 	font-size: 2vw;
 	padding: 1vw;
-}
-
-.w3-col.m6.w3-center.event-mid {
-	background-color: #f3f5ca;
-	box-shadow: 0 0 10px 0 #333;
-	width: 50%;
-	margin-top 8vw;
-	height: inherit;
 }
 
 .product-mid-image {
@@ -145,10 +139,12 @@
 	text-decoration: none;
 }
 
-.event-text {
+.w3-card.event-text {
 	position: relative;
 	font-family: coloniab;
 	font-size: 1.5vw;
+	padding-top: 2vw;
+	z-index: -1;
 }
 
 .index-container.btn {
