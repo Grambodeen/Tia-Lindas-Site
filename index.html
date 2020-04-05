@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
 	<head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -10,38 +10,284 @@
   			gtag('config', 'UA-159975345-1');
 		</script>
 
-		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    		<title>Tia Linda's Margaritas</title>
-    		<meta name="description" content="Tia Linda's Margarita is a delicious, all natural, ready-to-drink margarita made with organic 
-    										 lemon and lime juice. No artificial coloring or flavors added, this is a perfect anytime cocktail">
-    		<link href="style4.css" rel="stylesheet">
+		<title>Tia Linda's Margaritas</title>
+		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    		<meta name="description" content="Tia Linda's Ready-to-Drink Margarita is a delicious, all natural margarita made with organic 
+    										 lemon and lime juice. With no artificial coloring or flavors added, this is a perfect cocktail for any occasion">
+    		<link rel="stylesheet" href="style4.css">
     		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 	</head>
-<body>
-<!-- FOR FB FEED IF WANTED <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=484570632370930&autoLogAppEvents=1">
-</script> -->
 
-<nav class="w3-bar">
-		<a href="index.html">
-			<img class="w3-bar-block w3-button w3-left" id="nav-logo" src="logos/tia-linda-nav.png"></img>
-		</a>
-		<a href="about.html" class="w3-bar-block w3-button w3-center" id="nav-align">Her Story</a>
-		<a href="locations.html" class="w3-bar-block w3-button w3-center" id="nav-align">Where Is She?</a>
-		<a href="product.html" class="w3-bar-block w3-button w3-center" id="nav-align">Product</a>
-		<a href="contact.html" class="w3-bar-block w3-button w3-center" id="nav-align">Contact</a>
-		<a href="events.html" class="w3-bar-block w3-button w3-center" id="nav-align">Events</a>
-</nav>
-	<div class="index-container">
-		<img src="images/index-bg.jpg" alt="html5"/>		
-	</div>
-    <div class="w3-bar btm-nav">
-		<a href="product.html">
-			<img class="w3-bar-block w3-button w3-center" id="nav-logo" src="images/TIALINDA'S-Salud.png"></img>
-		</a>
-		<a href="https://www.facebook.com/TiaLindasMargarita/" class="fa fa-facebook" id="social-icon"></a>
-		<a href="https://www.instagram.com/tialindasmargarita/" class="fa fa-instagram" id="social-icon"></a>
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("btl-prpl.jpg");
+  min-height: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+.event-icon {
+  width: 5%;
+}
+
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s2">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
     </div>
+    <div class="w3-col s2">
+      <a href="#the-marg" class="w3-button w3-block w3-black">THE MARG</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#her-story" class="w3-button w3-block w3-black">HER STORY</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE IS SHE?</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#events" class="w3-button w3-block w3-black">EVENTS</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#contact" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding-large w3-hide-small">
+    <img style="width:15%" src="TIALINDA'S-Face-Icon-WHITE.jpg"/>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <a href="https://www.facebook.com/TiaLindasMargarita/" class="fa fa-facebook" style="color:white"></a>
+	<a href="https://www.instagram.com/tialindasmargarita/" class="fa fa-instagram" style="color:white"></a>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- The Marg Specs -->
+<div class="w3-container" id="the-marg">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">THE MARGARITA</span></h5>
+		  <div class="w3-row-padding">
+		  	<div class="w3-half w3-section">
+		      <ul class="w3-ul w3-card w3-hover-shadow">
+		        <li class="w3-dark-grey w3-xlarge w3-padding-32">Ready To Drink</li>
+		        <li class="w3-padding-16"><b>1.75L of Glorious Margarita</li>
+		        <li class="w3-padding-16"><b>10 - 6 oz. Servings</li>
+		        <li class="w3-padding-16"><b>18% ABV (Careful!)</li>
+		        <li class="w3-padding-16"><b>Just Add Ice</li>
+		        	<li class="w3-padding-16"><b>Serve on the Rocks or Blended</li>
+		      </ul>
+		    </div>
+		    <div class="w3-half w3-section">
+		      <ul class="w3-ul w3-card w3-hover-shadow">
+		        <li class="w3-dark-grey w3-xlarge w3-padding-32">All Natural Ingredients</li>
+		        <li class="w3-padding-16"><b>Organic Meyers Lemon Juice</li>
+		        <li class="w3-padding-16"><b>Organic Meyers Lime Juice</li>
+		        <li class="w3-padding-16"><b>Real Cane Sugar</li>
+		        	<li class="w3-padding-16"><b>A Pinch of Salt</li>
+		        <li class="w3-padding-16"><b>Agave (Tequila)</li>
+		      </ul>
+		    </div>
+		  </div>
+		  <img src="tl-mex-cal-blk.png" style="width:100%" class="w3-margin-top">
+	</div>
+  </div>
+
+
+<!-- Her Story Container -->
+<div class="w3-container" id="her-story">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT TIA LINDA</span></h5>
+    <p>Welcoming, always fun, and definitely the life of the party - our Aunt Linda has always been the one that brings our family and friends together. No matter the event, one thing is for certain, Tia Linda will have a batch of her "famous"
+    	   margaritas ready for all to enjoy. From holidays to weddings to pool parties and more - these delightful, punch packing cocktails have been part of countless good memories for our family. For years, we have wanted to share this
+    	   tasty and refreshing recipe with the world and now, with Tia Linda's blessing of course, we finally did it!</p>
+    <p>So, gather your loved ones, open up a bottle, and start making those memories!</p>
+    <p>Salud!</p>
+    <img src="tl-beach.jpg" style="width:50%" class="w3-margin-top">
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"You can't drink all day if you don't start in the morning."</i></p>
+      <p>- Tia Linda</p>
+    </div>
+  </div>
+</div>
+
+<!-- Where to Find Her Container -->
+<div class="w3-container" id="where">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE IS SHE?</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Map');" id="myLink">
+        <div class="w3-col s6 tablink">Map</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Locations');">
+        <div class="w3-col s6 tablink">Locations</div>
+      </a>
+    </div>
+
+    <div id="Map" class="w3-container menu w3-padding-48 w3-card">
+      <div class="w3-col m6 w3-center">
+		<iframe src="https://www.google.com/maps/d/embed?mid=1hlKr8AuMTDC202yPMczzB_RfT4WbYvbt" 
+			class="location-map" width="640" height="480" alt="Where to Buy Tia Linda's Margaritas">
+		</iframe>
+	  </div>
+	</div>
+
+    <div id="Locations" class="w3-container menu w3-padding-48 w3-card"/>
+		<a href="https://www.facebook.com/angelosmexicanrestaurant/" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Angelo's Mexican Restaurant</p>
+		</a>
+		<a href="https://www.facebook.com/angelsfoodmarket/" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Angels Food Market</p>
+		</a>
+		<a href="https://www.facebook.com/pages/Big-Trees-Market/175875609096171" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Big Trees Market</p>
+		</a>
+		<a href="https://www.facebook.com/Comptons-Market-125945487453518/" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Compton's Market</p>
+		</a>
+		<a href="https://www.facebook.com/genesfinefoodspleasanton/" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Gene's Fine Foods</p>
+		</a>
+		<a href="https://www.facebook.com/lirassupermarket/" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Lira's Supermarket</p>
+		</a>
+		<a href="https://www.facebook.com/pages/Lodi-Avenue-Discount-Liquors/145416208814349" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Lodi Avenue Liquors</p>
+		</a>
+		<a href="https://www.elks.org/lodges/home.cfm?LodgeNumber=1900" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Lodi Elk's Lodge</p>
+		</a>
+		<a href="http://marvalfoodstores.org/" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Mar-Val Foods: Escalon</p>
+		</a>
+		<a href="https://www.facebook.com/pages/Mar-Val-Food-Stores/147089055309975" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Mar-Val Foods: Valley Springs</p>
+		</a>
+		<a href="https://www.facebook.com/sierrahillsmarket/" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Sierra Hills Market</p>
+		</a>
+		<a href="https://www.facebook.com/Sierra-Hills-Natural-Foods-359460467397843/" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Sierra Hills Natural Foods</p>
+		</a>
+		<a href="https://www.facebook.com/Youngs-Payless-IGA-164706756894766/?rf=1905847836301005" style="text-decoration:none">
+			<p><img src="shake-it.png" class="event-icon"/>Young's Payless Market IGA</p>
+		</a>
+	</div>
+</div>
+
+<!-- Events -->
+<div class="w3-container" id="events">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">EVENTS</span></h5>
+    
+    	  <div class="w3-center w3-card-4">
+        <img src="shake-it.png" alt="Dancing Bottle"/>
+        <div class="w3-container">
+          <h3>Coming Soon</h3>
+          <!-- <p>Description of Event</p>
+          <p class="w3-opacity">Location:</p>
+          <p class="w3-opacity">Date:</p>
+          <p class="w3-opacity">Time:</p> -->
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- Contact Us -->
+<div class="w3-row-padding" id="contact">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHO WE ARE</span></h5>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="stroh.jpg" alt="Mike Stroh" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Stroh</h3>
+          <p class="w3-opacity">Co-Founder: Marketing Lead</p>
+          <p>Mike enjoys drinking his Tia Linda's Margs on the back of a fishing boat reeling in that trophy!</p>
+          <p class="w3-opacity">Phone: (209) 329-7827</p>
+          <p class="w3-opacity">Email: Mike@Tialindas.com</p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="meggie.jpg" alt="Meghan Hayward" style="width:100%">
+        <div class="w3-container">
+          <h3>Meghan Hayward</h3>
+          <p class="w3-opacity">Co-Founder: Operations Lead</p>
+          <p>Meghan enjoys her Tia Linda's where it originated...Mexico baby! Can't beat partying in the sun on the ocean.</p>
+          <p class="w3-opacity">Phone: (209) 329-6907</p>
+          <p class="w3-opacity">Email: Meghan@Tialindas.com</p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="graham.jpg" alt="Graham Christy" style="width:100%">
+        <div class="w3-container">
+          <h3>Graham Christy</h3>
+          <p class="w3-opacity">Co-Founder: Business Development Lead</p>
+          <p>Graham enjoys his Tia Linda's floating in a pool, however, anytime is a good time for Tia Linda's Margaritas!</p>
+          <p class="w3-opacity">Phone: (209) 329-1656</p>
+          <p class="w3-opacity">Email: Graham@Tialindas.com</p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-18 w3-large">
+  <img class="w3-bar-block w3-button w3-center" src="TIALINDA'S-Salud.png" style="width:20%"/>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
 </body>
 </html>
