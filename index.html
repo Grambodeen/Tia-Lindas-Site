@@ -39,10 +39,6 @@ body, html {
   display: none;
 }
 
-.event-icon {
-  width: 5%;
-}
-
 .button {
   background-color: #43bead; /* Green */
   border: none;
@@ -152,66 +148,142 @@ body, html {
 <div class="w3-container" id="where">
   <div class="w3-content" style="max-width:700px">
  
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE IS SHE?</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">LOCATIONS</span></h5>
   
-    <div class="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Map');" id="myLink">
+   <!-- <div class="w3-row w3-center w3-card w3-padding">
+       <a href="javascript:void(0)" onclick="openMenu(event, 'Map');" id="myLink">
         <div class="w3-col s6 tablink">Map</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Locations');">
         <div class="w3-col s6 tablink">Locations</div>
       </a>
-    </div>
+    </div> -->
 
-    <div id="Map" class="w3-container menu w3-padding-48 w3-card">
-      <div class="w3-col m6 w3-center">
+    <div class="w3-card w3-center w3-padding-48">
 		<iframe src="https://www.google.com/maps/d/embed?mid=1hlKr8AuMTDC202yPMczzB_RfT4WbYvbt" 
 			class="location-map" width="640" height="480" alt="Where to Buy Tia Linda's Margaritas">
 		</iframe>
-	  </div>
-	</div>
 
-    <div id="Locations" class="w3-container menu w3-padding-48 w3-card"/>
-		<a href="https://www.facebook.com/angelosmexicanrestaurant/" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Angelo's Mexican Restaurant</p>
-		</a>
-		<a href="https://www.facebook.com/angelsfoodmarket/" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Angels Food Market</p>
-		</a>
-		<a href="https://www.facebook.com/pages/Big-Trees-Market/175875609096171" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Big Trees Market</p>
-		</a>
-		<a href="https://www.facebook.com/Comptons-Market-125945487453518/" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Compton's Market</p>
-		</a>
-		<a href="https://www.facebook.com/genesfinefoodspleasanton/" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Gene's Fine Foods</p>
-		</a>
-		<a href="https://www.facebook.com/lirassupermarket/" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Lira's Supermarket</p>
-		</a>
-		<a href="https://www.facebook.com/pages/Lodi-Avenue-Discount-Liquors/145416208814349" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Lodi Avenue Liquors</p>
-		</a>
-		<a href="https://www.elks.org/lodges/home.cfm?LodgeNumber=1900" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Lodi Elk's Lodge</p>
-		</a>
-		<a href="http://marvalfoodstores.org/" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Mar-Val Foods: Escalon</p>
-		</a>
-		<a href="https://www.facebook.com/pages/Mar-Val-Food-Stores/147089055309975" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Mar-Val Foods: Valley Springs</p>
-		</a>
-		<a href="https://www.facebook.com/sierrahillsmarket/" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Sierra Hills Market</p>
-		</a>
-		<a href="https://www.facebook.com/Sierra-Hills-Natural-Foods-359460467397843/" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Sierra Hills Natural Foods</p>
-		</a>
-		<a href="https://www.facebook.com/Youngs-Payless-IGA-164706756894766/?rf=1905847836301005" style="text-decoration:none">
-			<p><img src="shake-it.png" class="event-icon"/>Young's Payless Market IGA</p>
-		</a>
+	<div class="w3-row-padding">
+		<div class="w3-third w3-container w3-margin-bottom">	
+				<p class="w3-medium" style="margin-bottom:2px">Angelo's Mexican Restaurant</p>
+				<a href="https://www.google.com/search?q=28+N+School+St%2C+Lodi%2C+CA+95240&oq=28+N+School+St%2C+Lodi%2C+CA+95240&aqs=chrome..69i57j33.1027j0j7&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					28 N School St<br>
+					Lodi, CA 95240
+				</address>
+				</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+				<p class="w3-medium" style="margin-bottom:2px">Angels Food Market</p>
+				<a href="https://www.google.com/search?q=396+N+Main+St%2C+Angels+Camp%2C+CA+95222&oq=396+N+Main+St%2C+Angels+Camp%2C+CA+95222&aqs=chrome..69i57j33.3914j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					396 N Main St<br>
+					Angels Camp, CA 95222
+				</address>
+				</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+				<p class="w3-medium" style="margin-bottom:2px">Big Trees Market</p>
+				<a href="https://www.google.com/search?q=2182+CA-4%2C+Arnold%2C+CA+95223&oq=2182+CA-4%2C+Arnold%2C+CA+95223&aqs=chrome..69i57j0.798j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					2182 CA-4<br>
+					Arnold, CA 95223
+				</address>
+				</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Compton's Market</p>
+				<a href="https://www.google.com/search?q=4065+McKinley+Blvd%2C+Sacramento%2C+CA+95819&oq=4065+McKinley+Blvd%2C+Sacramento%2C+CA+95819&aqs=chrome..69i57j0.267j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					4065 McKinley Blvd<br>
+					Sacramento, CA 95819
+				</address>
+				</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Gene's Fine Foods</p>
+			<a href="https://www.google.com/search?q=2803+Hopyard+Rd%2C+Pleasanton%2C+CA+94588&oq=2803+Hopyard+Rd%2C+Pleasanton%2C+CA+94588&aqs=chrome.0.69i59.17025j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					2803 Hopyard Rd<br>
+					Pleasanton, CA 94588
+				</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Lira's Supermarket</p>
+			<a href="https://www.google.com/search?q=609+CA-12%2C+Rio+Vista%2C+CA+94571&oq=609+CA-12%2C+Rio+Vista%2C+CA+94571&aqs=chrome..69i57j33.934j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					609 CA-12<br>
+					Rio Vista, CA 94571
+				</address>
+				</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Lodi Avenue Liquors</p>
+			<a href="https://www.google.com/search?q=1000+W+Lodi+Ave%2C+Lodi%2C+CA+95240&oq=1000+W+Lodi+Ave%2C+Lodi%2C+CA+95240&aqs=chrome..69i57j33.387j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					1000 W Lodi Ave<br>
+					Lodi, CA 95240
+				</address>
+				</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Lodi Elk's Lodge</p>
+			<a href="https://www.google.com/search?q=19071+N+Lower+Sacramento+Rd%2C+Woodbridge%2C+CA+95258&oq=19071+N+Lower+Sacramento+Rd%2C+Woodbridge%2C+CA+95258&aqs=chrome..69i57j0.644j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					19071 N Lower Sacramento Rd<br>
+					Woodbridge, CA 95258
+				</address>
+			</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Mar-Val Foods: Escalon</p>
+			<a href="https://www.google.com/search?q=1900+McHenry+Ave+%23101%2C+Escalon%2C+CA+95320&oq=1900+McHenry+Ave+%23101%2C+Escalon%2C+CA+95320&aqs=chrome..69i57j33.698j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					1900 McHenry Ave #101<br>
+					Escalon, CA 95320
+				</address>
+			</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Mar-Val: Valley Springs</p>
+			<a href="https://www.google.com/search?q=55+CA-26%2C+Valley+Springs%2C+CA+95252&oq=55+CA-26%2C+Valley+Springs%2C+CA+95252&aqs=chrome..69i57j33.1159j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					55 CA-26<br>
+					Valley Springs, CA 95252
+				</address>
+			</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Sierra Hills Market</p>
+			<a href="https://www.google.com/search?q=117+CA-4%2C+Murphys%2C+CA+95247&oq=117+CA-4%2C+Murphys%2C+CA+95247&aqs=chrome..69i57.374j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					117 CA-4<br>
+					Murphys, CA 95247
+				</address>
+			</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Sierra Hills Natural Foods</p>
+			<a href="https://www.google.com/search?q=117+CA-4%2C+Murphys%2C+CA+95247&oq=117+CA-4%2C+Murphys%2C+CA+95247&aqs=chrome..69i57.374j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					117 CA-4<br>
+					Murphys, CA 95247
+				</address>
+			</a>
+		</div>
+		<div class="w3-third w3-container w3-margin-bottom">
+			<p class="w3-medium" style="margin-bottom:2px">Young's Payless Market IGA</p>
+			<a href="https://www.google.com/search?q=9787%2C+18980+CA-88%2C+Lockeford%2C+CA+95237&oq=9787%2C+18980+CA-88%2C+Lockeford%2C+CA+95237&aqs=chrome..69i57.766j0j9&sourceid=chrome&ie=UTF-8">
+				<address class="w3-small">
+					9787, 18980 CA-88<br>
+					Lockeford, CA 95237
+				</address>
+			</a>
+		</div>
 	</div>
+</div>
+</div>
 </div>
 
 <!-- Events -->
