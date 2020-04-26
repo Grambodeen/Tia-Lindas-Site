@@ -19,16 +19,13 @@
     		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
     		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-    		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	</head>
 
 <style>
-body, html {
+	body, html {
   height: 100%;
   line-height: 1.8;
-  font-family: "Inconsolata", sans-serif;
+  font-family: "coloniab";
 }
 
 /* Create a Parallax Effect */
@@ -68,6 +65,7 @@ body, html {
   }
 }
 </style>
+
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -77,26 +75,19 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home"><img src="TIALINDA'S-Face-Icon-WHITE_trans.png" style="width:10%"/img></a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#locations" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-map-marker"></i> WHERE TO BUY</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+    <a href="#locations" class="w3-button w3-center w3-padding-small w3-black w3-large w3-animate-opacity">FIND A BOTTLE NEAR YOU</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT THE MARG</a>
     <a href="#locations" class="w3-bar-item w3-button" onclick="toggleFunction()">WHERE TO BUY</a>
-    <a href="#contact" class="w3-bar-item w3-button">CONTACT US!</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT US!</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <a href="#locations" class="w3-button w3-center w3-padding-small w3-black w3-large w3-animate-opacity">FIND A BOTTLE <br> NEAR YOU</a>
-  </div>
 </div>
 
 <!-- Container (About Section) -->
